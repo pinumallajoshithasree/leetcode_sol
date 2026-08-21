@@ -12,6 +12,8 @@ class Solution {
           
     }
     //bruteforce
+    //Tc:O(maxDist)+O(n log n)
+    //Sc:O(1)
     // public int aggressiveCows(int[] arr, int k) {
     //     // code here
     //     Arrays.sort(arr);
@@ -25,6 +27,8 @@ class Solution {
     // }
 
   //optimal
+  //TC:O(Nlog N + Nlog MaxDist)
+  //SC:O(1)
   public int aggressiveCows(int[] arr, int k) {
          Arrays.sort(arr);
          int n=arr.length;
